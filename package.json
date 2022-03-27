@@ -1,0 +1,25 @@
+{
+  "name": "business-manager",
+  "version": "1.0.0",
+  "description": "This is a command line application used for managing your business.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbruns/business-manager.git"
+  },
+  "author": "Will B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wbruns/business-manager/issues"
+  },
+  "homepage": "https://github.com/wbruns/business-manager#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.2",
+    "mysql2": "^2.3.3"
+  }
+}
