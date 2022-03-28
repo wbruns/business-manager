@@ -1,8 +1,9 @@
 const db = require('./db/connection');
+const Actions = require('./lib/Actions');
 
-
-// start server after DB connection
 db.connect(err => {
     if (err) throw err;
     console.log('Database connected');
 });
+
+new Actions().chooseAction();
